@@ -5,8 +5,8 @@ class SnowAnimation {
         this.ctx = this.canvas.getContext('2d');
         
         // Set canvas size to window size or specified dimensions
-        this.canvas.width = options.width || window.innerWidth;
-        this.canvas.height = options.height || window.innerHeight;
+        //this.canvas.width = options.width || window.innerWidth;
+        //this.canvas.height = options.height || window.innerHeight;
         
         // Initialize properties
         this.snows = Math.min(options.snows || 100, 500);
